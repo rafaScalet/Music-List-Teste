@@ -12,7 +12,7 @@
   </ion-header>
 
   <ion-list>
-    <ion-item *ngFor="let music of musics">
+    <ion-item button *ngFor="let music of musics" [routerLink]="['/music-details', music.id]">
       <ion-label>{{music.title}}</ion-label>
     </ion-item>
   </ion-list>

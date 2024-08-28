@@ -15,4 +15,7 @@ export class MusicsService {
     return this.http.get<Music[]>(`${environment.url}/music`);
   }
 
+  getMusic(id: number): Observable<Music> {
+    return this.http.get<Music>(`${environment.url}/music/${id}`);
+  }
 }

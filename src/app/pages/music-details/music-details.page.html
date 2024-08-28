@@ -10,4 +10,19 @@
       <ion-title size="large">music-details</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-accordion-group class="ion-margin" expand="inset">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="primary">
+        <ion-label>Song Details</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Title - {{music.title}}</div>
+      <div class="ion-padding" slot="content">Album - {{music.album}}</div>
+      <div class="ion-padding" slot="content">Band - {{music.band}}</div>
+      <div class="ion-padding" slot="content">Composer - {{music.composer}}</div>
+      <div class="ion-padding" slot="content">Duration - {{music.duration}}</div>
+      <div class="ion-padding" slot="content">Genre - {{music.genre}}</div>
+    </ion-accordion>
+  </ion-accordion-group>
+
 </ion-content>
