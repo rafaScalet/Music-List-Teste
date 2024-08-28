@@ -1,0 +1,22 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "composer": "Bruce Dickson, Adrien Smith",
+      "title": "The Writing On The Wall",
+      "duration": 7.24,
+      "genre": "Heavy Metal",
+      "band": "Iron Maiden",
+      "album": "Single"
+    },
+    {
+      "id": 2,
+      "composer": "Daron Malakian, Serj Tankian",
+      "title": "Chop Suey!",
+      "duration": 3.29,
+      "genre": "Nu Metal",
+      "band": "System of a Down",
+      "album": "Toxicity"
+    }
+  ]
+}
